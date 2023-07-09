@@ -84,7 +84,7 @@ export default async function Info({ params: { info: userId } }: any) {
           ) : (
             <div className="card-body">
               <h5 className="card-title">
-                There's no available data for this user
+                There is no available data for this user
               </h5>
             </div>
           )}
