@@ -84,6 +84,7 @@ export default async function Dashboard() {
                   <tbody id="tableBody">
                     {allDiagnoses.diagnose.map((diagnose, index) => (
                       <tr
+                        key={index}
                         style={{
                           backgroundColor: getBgColorBasedOnDiagnose(
                             diagnose.diagnose
