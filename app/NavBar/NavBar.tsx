@@ -24,7 +24,7 @@ export default function NabBar() {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
-          Heart Tracker
+          <img className="logo" src="images/heart(2).png" alt="" />
         </a>
         <button
           className="navbar-toggler"
