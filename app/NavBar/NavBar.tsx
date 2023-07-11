@@ -58,10 +58,22 @@ export default function NabBar() {
               </a>
             </li>
             <li className="nav-item">
-              <a onClick={handleClick} className="nav-link btn-nav">
-                LOG OUT
+              <a className="nav-link" href="/blogs">
+                BLOGS
               </a>
             </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/#team">
+                TEAM
+              </a>
+            </li>
+            {userType && (
+              <li className="nav-item">
+                <a onClick={handleClick} className="nav-link btn-nav">
+                  LOG OUT
+                </a>
+              </li>
+            )}
             {!userType && (
               <li className="nav-item">
                 <a className="nav-link" href="/admin/login">
